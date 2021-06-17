@@ -1,8 +1,8 @@
 # JAZ API Example in Node (TypeScript)
 
-A sample JAZ API. This example has one endpoint, where a consumer inputs a JAZ example-input.zip, and outputs a example-output.zip
+A sample JAZ API. Using localhost:8080, this example has one endpoint, where a consumer inputs a JAZ example-input.zip, and the API outputs an example-output.zip
 
-Uses localhost:8080
+Link to learn about JAZ: https://github.com/NguyenAndrew/jaz
 
 ## Architecture
 
