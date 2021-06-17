@@ -1,6 +1,8 @@
-# Penjar - PostgreSQL Express Node Jest Axios React
+# JAZ API Example in Node (TypeScript)
 
-Penjar is the fastest way to spin up a Full Stack application (React + Node) with Jest testing. Evolution and based off of the [Careen](https://github.com/NguyenAndrew/careen) stack. Now using TypeScript!
+A sample JAZ API. This example has one endpoint, where a consumer inputs a JAZ example-input.zip, and outputs a example-output.zip
+
+Uses localhost:8080
 
 ## Architecture
 
@@ -32,12 +34,3 @@ Penjar is the fastest way to spin up a Full Stack application (React + Node) wit
 5. Upgrade all dependencies with ```npm run dependup```
 6. Upgrade dependencies in your package-lock.json with ```npm install```
 7. Optional: Check to see which dependencies were not updated (due to failing tests) with ```npm run dependup:check```
-
-## Quickstart - (Optional) Configuring a database
-1. Navigate to the back_end directory
-2. For local setup: Create a database.json file in the **src/database** directory, configure this information with database credentials (Note: database.json in back_end directory is excluded by git in .gitignore).
-3. For cloud setup: Place database credentials within env variables, parse this information by inserting custom code into databaseInfo.ts
-4. Configure database client
-
-## Roadmap
-* Add rest of tests for existing code on the back end

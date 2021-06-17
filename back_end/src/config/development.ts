@@ -1,7 +1,7 @@
 import ConfigTemplate from "./configTemplate";
 
 const config: ConfigTemplate = {
-  port: 3001,
+  port: 8080,
 };
 
 export default config;
